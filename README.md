@@ -29,6 +29,7 @@ You can tweak masses, magnet layouts, suspension stiffness/damping or accelerati
 
 ```
 │ main.py                   # Entry point – choose scenario & launch everything
+│
 ├── core/                   # Core modules (stable, shared across all scenarios)
 │ ├── analyse.py            # KPI & FFT helpers
 │ ├── auto_test.py          # Minimal regression tests
@@ -46,7 +47,10 @@ You can tweak masses, magnet layouts, suspension stiffness/damping or accelerati
 │ ├── scenarios_masses.py   # Mass breakdowns for each design iteration
 │ ├── script_rapport.py     # Generates HTML then converts to PDF
 │
-├── out/                    # Output folder for reports, plots, and simulation results
+├── sim_results/            # Output folder for reports, plots, and simulation results
+│ ├── ODE/                  # Where generated datas are keeped
+│
+│ ├── reports/              # Folder for PDF simulation reports
 │
 ├── README.md               # This file
 ├── requirements.txt        # Python dependencies
