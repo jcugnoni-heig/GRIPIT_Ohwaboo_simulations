@@ -49,7 +49,7 @@ You can tweak masses, magnet layouts, suspension stiffness/damping or accelerati
 ├── out/                    # Output folder for reports, plots, and simulation results
 │
 ├── README.md               # This file
-├── requirements.txt        # (optional) Python dependencies
+├── requirements.txt        # Python dependencies
 └── .gitignore              # Files/folders ignored by Git
 ```
 
