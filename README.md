@@ -34,7 +34,7 @@ You can tweak masses, magnet layouts, suspension stiffness/damping or accelerati
 │ ├── auto_test.py          # Minimal regression tests
 │ ├── display.py            # 19 default plots for quick visual checks
 │ ├── disp_forces_mag.py    # Builds Fx/Fy/Fz surface from magnet data
-│ ├── forces.py             # Aggregates all loads except magnets
+│ ├── forces.py             # Aggregates all loads
 │ ├── geometry.py           # Computes instantaneous pod/rail geometry
 │ ├── sauvegarde.py         # Creates run folder, handles CSV & figure exports
 │ ├── simulation.py         # SciPy solve_ivp wrapper + non‑linear ODE system
