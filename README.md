@@ -28,25 +28,35 @@ You can tweak masses, magnet layouts, suspension stiffness/damping or accelerati
 ### Repo structure
 
 ```
-│ main.py               # Entry point – choose scenario & launch everything
-│ datas.py              # Centralised parameters (rail, pod, control flags…)
-│ scenarios_masses.py   # Mass breakdowns for each design iteration
-│ geometry.py           # Computes instantaneous pod/rail geometry
-│ forces.py             # Aggregates all loads except magnets
-│ disp_forces_mag.py    # Builds Fx/Fy/Fz surface from magnet data
-│ simulation.py         # SciPy solve_ivp wrapper + non‑linear ODE system
-│ initialisation.py     # Generates initial state + spring pre‑loads
-│ sauvegarde.py         # Creates run folder, handles CSV & figure exports
-│ display.py            # 19 default plots for quick visual checks
-│ analyse.py            # KPI & FFT helpers
-│ script_rapport.py     # Generates HTML then converts to PDF
-│ auto_test.py          # Minimal regression tests
-└── user_inputs.py      # CLI helpers (optional)
+│ main.py                   # Entry point – choose scenario & launch everything
+├── core/                   # Core modules (stable, shared across all scenarios)
+│ ├── analyse.py            # KPI & FFT helpers
+│ ├── auto_test.py          # Minimal regression tests
+│ ├── display.py            # 19 default plots for quick visual checks
+│ ├── disp_forces_mag.py    # Builds Fx/Fy/Fz surface from magnet data
+│ ├── forces.py             # Aggregates all loads except magnets
+│ ├── geometry.py           # Computes instantaneous pod/rail geometry
+│ ├── sauvegarde.py         # Creates run folder, handles CSV & figure exports
+│ ├── simulation.py         # SciPy solve_ivp wrapper + non‑linear ODE system
+│ ├── user_inputs.py        # CLI helpers (optional)
+│
+├── scenarios/              # Scenario-specific configuration and modifiable logic
+│ ├── datas.py              # Centralised parameters (rail, pod, control flags…)
+│ ├── initialisation.py     # Generates initial state + spring pre‑loads
+│ ├── scenarios_masses.py   # Mass breakdowns for each design iteration
+│ ├── script_rapport.py     # Generates HTML then converts to PDF
+│
+├── out/                    # Output folder for reports, plots, and simulation results
+│
+├── README.md               # This file
+├── requirements.txt        # (optional) Python dependencies
+└── .gitignore              # Files/folders ignored by Git
 ```
 
 ### Quick start
 
 ```bash
+
 # 0. In cmd.exe go to the repository
 cd %folderpath%
 
@@ -68,7 +78,7 @@ python main.py
 
 ### Customising a run
 
-1. **Select a mass set** in `scenarios_masses.py` (e.g. `masse_version = "2025Q1_150kg"`).
+1. **Select a mass set** in `scenarios_masses.py` (e.g. `masse_version = "05_12_2023-158.4kg"`).
 2. **Edit key parameters** in `datas.py` – magnet dimensions, suspension $k/c$, booster force, simulation end‑criteria, etc.
 3. Hit **`python main.py`** again; the solver re‑uses your edits and rebuilds the report.
 
