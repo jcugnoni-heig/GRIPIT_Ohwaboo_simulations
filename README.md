@@ -1,6 +1,7 @@
 ## **Author**  
 This codebase was created by **Maxence Cailleteau** for the GRIPIT reserch group (@HEIG-VD).
-GRIPIT - Groupe de Recherche Interdisciplinaire en Projet Innovant de Transport
+
+GRIPIT : Groupe de Recherche Interdisciplinaire en Projet Innovant de Transport
 
 
 # GRIPIT_Ohwaboo_simulations
