@@ -21,7 +21,7 @@ A compact, end‑to‑end Python framework that **simulates and analyses the non
 
 ### Why you might care
 
-Colleagues can tweak masses, magnet layouts, suspension stiffness/damping or acceleration profiles and immediately get an updated **“engineering pack”** (figures + KPIs) without touching the solver itself.
+You can tweak masses, magnet layouts, suspension stiffness/damping or acceleration profiles and immediately get an updated **“engineering pack”** (figures + KPIs) without touching the solver itself.
 
 ---
 
