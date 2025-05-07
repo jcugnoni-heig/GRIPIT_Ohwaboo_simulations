@@ -4,6 +4,10 @@ This codebase was created by **Maxence Cailleteau** for the GRIPIT reserch gro
 GRIPIT : Groupe de Recherche Interdisciplinaire en Projet Innovant de Transport
 
 
+## **Disclaimer**
+This code is provided “as is” for educational and research purposes only. No warranty of any kind—express, implied, or statutory—is given regarding accuracy, reliability, or fitness for a particular use. Use it at your own risk, and verify all results independently before relying on them in safety‑critical or commercial applications.
+
+
 # GRIPIT_Ohwaboo_simulations
 A compact, end‑to‑end Python framework that simulates and analyses the non‑linear flight dynamics of the Ohwaboo pod, the passive‑maglev demonstrator developed under the GRIPIT project (HES‑SO, Axis 2). 
 
