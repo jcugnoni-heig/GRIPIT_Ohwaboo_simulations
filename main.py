@@ -1,6 +1,11 @@
-#Code déplacé dans : C:\Users\Max\Documents\GRIPIT_Simulations
-#   Depuis : C:\Users\Max\switchdrive\GRIPIT\GRIPIT_MXM\_GRIPIT_unshare\04_WP2_Prédimensionnement\403_Prototype\4030_Proto-Système_equa_dif_couplées\Dev_open_air\Rail_H_6DDL_V2_231122
-#   Le : 28/11/2023
+# Copyright © 2025 Maxence Cailleteau - HEIG-VD - GRIPIT
+# SPDX‑License‑Identifier: GPL‑3.0-or-later
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License 
+# and any later version.
+#______________________________________________________________________
 
 
 import os
