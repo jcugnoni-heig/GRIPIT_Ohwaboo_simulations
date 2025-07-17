@@ -5,8 +5,9 @@ The magnetic force model was developped based on simulation by Maude Fumeaux, Da
 ## **Publication**
 M. Fumeaux, M. Cailleteau, D. Melly, S. Chevailler and J. Cugnoni, "Design and Simulation of the Electrodynamic Suspension of an Hyperloop Test Vehicle," 2023 14th International Symposium on Linear Drivers for Industry Applications (LDIA), Hannover, Germany, 2023, pp. 1-5, doi: 10.1109/LDIA59564.2023.10297536.
 
-GRIPIT : Groupe de Recherche Interdisciplinaire en Projet Innovant de Transport
-
+## ** Project / context **
+This code is part of the HES-SO project GRIPIT : Groupe de Recherche Interdisciplinaire en Projet Innovant de Transport
+[Link to project page @HES-SO](https://www.hes-so.ch/recherche-innovation/projets-de-recherche/detail-projet/gripit-groupe-de-recherche-interdisciplinaire-en-projet-innovant-de-transport)
 
 ## **Disclaimer**
 This code is provided “as is” for educational and research purposes only. No warranty of any kind—express, implied, or statutory—is given regarding accuracy, reliability, or fitness for a particular use. Use it at your own risk, and verify all results independently before relying on them in safety‑critical or commercial applications.
