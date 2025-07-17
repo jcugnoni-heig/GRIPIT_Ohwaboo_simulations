@@ -1,5 +1,9 @@
 ## **Author**  
-This codebase was created by **Maxence Cailleteau** for the GRIPIT reserch group (@HEIG-VD).
+This codebase was created by **Maxence Cailleteau** for the GRIPIT reserch group (@HEIG-VD)
+The magnetic force model was developped based on simulation by Maude Fumeaux, David Melly and S. Chevailler
+
+## **Publication**
+M. Fumeaux, M. Cailleteau, D. Melly, S. Chevailler and J. Cugnoni, "Design and Simulation of the Electrodynamic Suspension of an Hyperloop Test Vehicle," 2023 14th International Symposium on Linear Drivers for Industry Applications (LDIA), Hannover, Germany, 2023, pp. 1-5, doi: 10.1109/LDIA59564.2023.10297536.
 
 GRIPIT : Groupe de Recherche Interdisciplinaire en Projet Innovant de Transport
 
@@ -9,7 +13,7 @@ This code is provided “as is” for educational and research purposes only. No
 
 
 # GRIPIT_Ohwaboo_simulations
-A compact, end‑to‑end Python framework that simulates and analyses the non‑linear flight dynamics of the Ohwaboo pod, the passive‑maglev demonstrator developed under the GRIPIT project (HES‑SO, Axis 2). 
+A compact, end‑to‑end Python framework that simulates and analyses the non‑linear flight dynamics of the Ohwaboo pod, the passive‑maglev demonstrator developed under the GRIPIT project (financed by HES‑SO). 
 
 
 This repository simulates the non-linear dynamics of the Ohwaboo maglev demonstrator, part of GRIPIT axis 2 at HES‑SO.
