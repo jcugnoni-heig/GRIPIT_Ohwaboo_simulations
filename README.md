@@ -1,6 +1,6 @@
 ## **Author**  
 This codebase was created by **Maxence Cailleteau** for the GRIPIT reserch group (@HEIG-VD)
-The magnetic force model was developped based on simulation by Maude Fumeaux, David Melly and S. Chevailler
+The magnetic force model was developped based on simulation by Maude Fumeaux, David Melly and S. Chevailler (HEI-VS)
 
 ## **Publication**
 M. Fumeaux, M. Cailleteau, D. Melly, S. Chevailler and J. Cugnoni, "Design and Simulation of the Electrodynamic Suspension of an Hyperloop Test Vehicle," 2023 14th International Symposium on Linear Drivers for Industry Applications (LDIA), Hannover, Germany, 2023, pp. 1-5, doi: 10.1109/LDIA59564.2023.10297536.
